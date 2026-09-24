@@ -1,0 +1,3 @@
+BACKUP DATABASE ShopDB 
+TO DISK = 'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\ShopDB.bak' 
+WITH INIT, NAME = 'ShopDB-Full';
